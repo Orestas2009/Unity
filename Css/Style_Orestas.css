@@ -1,0 +1,11 @@
+body{
+    white-space: pre;
+    text-align: center;
+    
+}
+header{
+    background-image: url(/IMG/Background.png);
+}
+b{
+    color: cyan;
+}
