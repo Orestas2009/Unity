@@ -1,11 +1,54 @@
+
 body{
     white-space: pre;
     text-align: center;
-    
+    margin: 0;
 }
 header{
     background-image: url(/IMG/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: start;
+    padding-left: 100px;
+    font-size: xx-large;
+    height: 100vh
 }
 b{
-    color: cyan;
+    color: darkcyan;
+}
+button.About{
+    background-color: orange;
+    color: white;
+    border: 0;
+    width: 15%;
+    height: 40px;
+}
+button.Donate{
+    border: 0;
+    width: 15%;
+    height: 40px;
+    margin: 15px;
+}
+button.Top{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    margin:0; padding:0;
+    text-align: center;
+
+    
+}
+button.Top:hover{
+    background-color: orange;
+    
+}
+div i{
+    border: 1px solid gray;
+    font-size: 100px;
+    padding: 10px;
+}
+button{
+    border: 0;
 }
