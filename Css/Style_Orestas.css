@@ -37,18 +37,29 @@ button.Top{
     color: white;
     margin:0; padding:0;
     text-align: center;
-
+    padding: 20px;
     
 }
 button.Top:hover{
     background-color: orange;
     
 }
+
 div i{
     border: 1px solid gray;
     font-size: 100px;
     padding: 10px;
+    color: orange;
+}
+div button i{
+    color: black;
+    
 }
 button{
     border: 0;
+}
+.fa-bars{
+    float: right;
+    font-size: xxx-large;
+    padding-right: 50px;
 }
