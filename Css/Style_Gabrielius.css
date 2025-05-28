@@ -1,0 +1,156 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #353535;
+
+  }
+ 
+  .section-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 40px 0 20px;
+  }
+ 
+  .dot {
+    color: #ff702d;
+  }
+ 
+  .highlight {
+    color: #239494;
+  }
+ 
+ 
+  .testimonial-section {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  .testimonial-card {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+  }
+ 
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+  }
+ 
+  .testimonial-text {
+    text-align: left;
+  }
+ 
+  .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+ 
+  .author {
+    font-weight: bold;
+  }
+ 
+
+  .dots {
+    margin-top: 10px;
+  }
+ 
+  .dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+ 
+  .dots .active {
+    background-color: #ff702d;
+  }
+ 
+
+  .newsletter-section {
+    background-color: #202020;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+  }
+ 
+  .newsletter-section input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+ 
+  .newsletter-section button {
+    padding: 10px 20px;
+    background-color: #ff702d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+ 
+
+  .callback-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(../IMG/mapoverview.png);
+  }
+ 
+  .callback-form {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 17px;
+  }
+ 
+  .callback-form input,
+  .callback-form textarea {
+    padding: 10px;
+    width: 100%;
+  }
+ 
+  .callback-form button {
+    padding: 10px;
+    background-color: #ff702d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .map-placeholder {
+    margin-top: 30px;
+    height: 200px;
+    background-color: #eee;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  input,textarea {
+    width: 100%;
+    padding-right:  120 120 120 120;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #f15353;
+  }
+
+
+
+  
