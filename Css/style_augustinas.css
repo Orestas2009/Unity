@@ -1,6 +1,32 @@
-h2{
-
+.About{
+    
+    padding: 20px;
+}
+button{
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px;
 }
 body{
-    
+   color: aliceblue;
+ word-spacing: 2px;
+   display: block;
+ 
+ background-size: cover;
+ 
+}
+header{
+    background-image: url("../IMG/Background.png");
+    background-size: cover;
+    padding: 20px;
+}
+.box1{
+    float: none;
+}
+.box2{
+
+}
+.box3{
+    float: right;
+    position: relative;
 }
