@@ -143,12 +143,28 @@ body {
   }
  
   input,textarea {
-    width: 100%;
-    padding-right:  120 120 120 120;
-    margin: 8px 0;
+    
+    padding-right: 10;
+    margin: 11px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid #f15353;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #f15353 50%, transparent 50%) 100% 1;
+  }
+  i{
+    position: absolute; 
+    padding-left: 450px;
+    font-size: 30px;
+  }
+  .fa-mobile{
+    padding-top: 30px;
+    
+  }
+  .fa-location-dot{
+    padding-top: 130px;
+  }
+  .fa-envelope{
+    padding-top: 220px;
   }
 
 
