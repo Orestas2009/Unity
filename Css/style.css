@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 212, 212);
+    
+    text-align: center;
+}
+h4{
+    color: black;
+}
+header {
+    padding: 20px;
+    background-color: white;
+}
+p
+{
+    position: absolute;
+    color: black;
+}
+header h1 {
+    font-size: 2em;
+}
+
+header h1 span {
+    color: lightseagreen;
+}
+
+header p {
+    font-size: 0.9em;
+    color: rgb(211, 208, 208);
+    margin-top: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.div1 {
+    grid-row: span 2 / span 2;
+    background-image: url(../IMG/6.png);
+    background-size: cover;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+}
+
+.div3 {
+    grid-row:  2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-image: url(../IMG/3.png);
+    background-size: cover;
+    grid-row: span 2 / span ;
+
+
+}
+
+.div5 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.gallery img {
+    width: 100%;
+    height:auto;
+    border-radius: 8px;
+
+}
+
+.cta-button {
+    background-color: darkorange;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
