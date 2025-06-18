@@ -20,6 +20,11 @@ header{
     height: 100vh;
     
 }
+svg{
+    position: absolute;
+    bottom: -140px;
+    right: -10px;
+}
 b{
     color: darkcyan;
 }
